@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-13T08:41:54.354Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.36" etag="ImomhiHan41ZJSeqFTBi" version="17.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-13T08:42:52.833Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.36" etag="FGbnj7hartljOeMSnXaW" version="17.1.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2617" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -149,7 +149,7 @@
         <mxCell id="2ZtStFcdVy71de74ot4a-66" value="타투 게시글 상세화면" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="2ZtStFcdVy71de74ot4a-65" vertex="1">
           <mxGeometry x="80" y="37" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0cm6v_oAF4pO0CeNivAO-37" value="채팅하기" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB570;" parent="2ZtStFcdVy71de74ot4a-65" vertex="1">
+        <mxCell id="0cm6v_oAF4pO0CeNivAO-37" value="채팅하기" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" parent="2ZtStFcdVy71de74ot4a-65" vertex="1">
           <mxGeometry x="10" y="60" width="80" height="25" as="geometry" />
         </mxCell>
         <mxCell id="0cm6v_oAF4pO0CeNivAO-38" value="게시글 수정" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="2ZtStFcdVy71de74ot4a-65" vertex="1">
@@ -306,7 +306,7 @@
         <mxCell id="IakW_4gbxIKifZXvKVqo-7" value="게시글 삭제" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="IakW_4gbxIKifZXvKVqo-4" vertex="1">
           <mxGeometry x="110" y="60" width="80" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="IakW_4gbxIKifZXvKVqo-8" value="채팅하기" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" parent="IakW_4gbxIKifZXvKVqo-4" vertex="1">
+        <mxCell id="IakW_4gbxIKifZXvKVqo-8" value="채팅하기" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D4E1F5;" parent="IakW_4gbxIKifZXvKVqo-4" vertex="1">
           <mxGeometry x="210" y="59" width="80" height="25" as="geometry" />
         </mxCell>
         <mxCell id="IakW_4gbxIKifZXvKVqo-9" value="일반회원 댓글" style="swimlane;strokeColor=#000000;fillColor=#CCE5FF;startSize=23;" parent="IakW_4gbxIKifZXvKVqo-1" vertex="1">
@@ -362,10 +362,10 @@
         <mxCell id="IakW_4gbxIKifZXvKVqo-32" value="채팅" style="swimlane;strokeColor=#000000;fillColor=#E6D0DE;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1050" y="711" width="200" height="84" as="geometry" />
         </mxCell>
-        <mxCell id="IakW_4gbxIKifZXvKVqo-113" value="예약하기" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" parent="IakW_4gbxIKifZXvKVqo-32" vertex="1">
+        <mxCell id="IakW_4gbxIKifZXvKVqo-113" value="예약하기" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" parent="IakW_4gbxIKifZXvKVqo-32" vertex="1">
           <mxGeometry x="10" y="54.5" width="80" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="a2LHy7QVbVk75pefN4lh-0" value="채팅 기능" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB570;" vertex="1" parent="IakW_4gbxIKifZXvKVqo-32">
+        <mxCell id="a2LHy7QVbVk75pefN4lh-0" value="채팅 기능" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="IakW_4gbxIKifZXvKVqo-32">
           <mxGeometry x="111" y="29.5" width="80" height="25" as="geometry" />
         </mxCell>
         <mxCell id="IakW_4gbxIKifZXvKVqo-36" value="예약 현황" style="swimlane;strokeColor=#000000;fillColor=#E6D0DE;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">

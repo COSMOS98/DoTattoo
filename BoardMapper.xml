@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bluewaves.codingTest.jhProject.mapper.BoardMapper">
+	
+	<!-- 게시판 리스트 -->
+	<select id="getBoardList" resultType="com.bluewaves.codingTest.jhProject.vo.BoardVo">
+		SELECT * FROM KWJ_BOARD
+		WHERE B_DEL = 'N'
+		<if test="searchType != null">
+ 			<choose>
+			
+ 			<when test="searchType == ''">AND B_TITLE LIKE CONCAT('%',#{keyword},'%') || B_NAME LIKE CONCAT('%',#{keyword},'%')
+ 			|| B_CONTENT LIKE CONCAT('%',#{keyword},'%') || B_NO LIKE CONCAT('%',#{keyword},'%') </when>
+			
+ 			<when test="searchType == 't'.toString()">AND B_TITLE LIKE CONCAT('%',#{keyword},'%')</when>
+ 			<when test="searchType == 'u'.toString()">AND B_NAME LIKE CONCAT('%',#{keyword},'%')</when>		
+ 			<when test="searchType == 'c'.toString()">AND B_CONTENT LIKE CONCAT('%',#{keyword},'%')</when>
+ 			<when test="searchType == 'n'.toString()">AND B_NO LIKE CONCAT('%',#{keyword},'%')</when>
+	
+ 			</choose>
+			</if>
+		ORDER BY B_NO DESC
+	</select>
+	
+	<!-- 게시판 작성 -->
+	<insert id="insertContent">
+		INSERT INTO KWJ_BOARD (B_TITLE, B_CONTENT, B_DATE, B_NAME, B_DEL)
+		VALUES(
+			#{bTitle, jdbcType=VARCHAR}
+			, #{bContent, jdbcType=VARCHAR}
+			, now()
+			, #{bName}
+			, 'N'
+		)
+	</insert>
+	
+	<!-- 게시판 찾기 -->
+	<select id="getContentByBno" resultType="com.bluewaves.codingTest.jhProject.vo.BoardVo">
+		SELECT * FROM KWJ_BOARD
+		WHERE B_NO = #{bNo}
+	</select>
+	
+	<!-- 게시판 수정 -->
+	<update id="updateContent">
+		UPDATE KWJ_BOARD SET
+			B_TITLE = #{bTitle}
+			, B_CONTENT = #{bContent}
+		WHERE B_NO = #{bNo} 
+	</update>
+	
+	<!-- 게시판 삭제 -->
+	<update id="deleteContent">
+		UPDATE KWJ_BOARD SET
+			B_DEL = 'Y'
+		WHERE B_NO = #{bNo} 
+	</update>
+	
+	
+	<!-- 회원가입 -->
+	<insert id="insertUser">
+		INSERT INTO KWJ_USER
+		VALUES(
+			#{uId}
+			, #{uPw}
+			, #{uName}
+			, #{uPhone}
+		)
+	</insert>
+	
+	<!-- 로그인 -->
+	<select id="login" resultType="com.bluewaves.codingTest.jhProject.vo.UserVo" parameterType="map">
+		SELECT *
+		FROM KWJ_USER
+		WHERE U_ID = #{uId}
+		AND U_PW = #{uPw}
+	</select>
+	
+	<select id="checkDupId" resultType="int">
+		SELECT COUNT(*) FROM KWJ_USER
+		WHERE U_ID = #{uId}
+	</select>
+
+</mapper>

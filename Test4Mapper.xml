@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bluewaves.codingTest.test4.mapper.Test4Mapper">
+	
+	<!-- 코딩 테스트4 게시글 목록 -->
+	<select id="getList" resultType="com.bluewaves.codingTest.test4.vo.Test4VO">
+		SELECT
+			IDX
+			, USER_NAME
+			, TITLE
+			, CONTENT
+        FROM T_BBS
+		ORDER BY IDX DESC
+	</select>
+	
+	<select id="boardList" resultType="com.bluewaves.codingTest.test4.vo.Board4VO">
+		SELECT A.* FROM (
+			SELECT * FROM KWJ_BOARD
+			WHERE B_DEL = 'N'
+				<choose>
+					<when test="searchType == ''">AND B_TITLE LIKE CONCAT('%',#{searchText}, '%') OR B_NAME LIKE CONCAT('%',#{searchText}, '%') AND B_DEL = 'N' </when>
+					<when test="searchType == '01'">AND B_TITLE LIKE CONCAT('%',#{searchText}, '%')</when>
+					<when test="searchType == '02'">AND B_NAME LIKE CONCAT('%',#{searchText}, '%')</when>
+				</choose>
+			ORDER BY B_NO DESC ) A
+		LIMIT #{perPage} OFFSET #{startRow}
+	</select>
+	
+	<select id="countList" resultType="int">
+		SELECT COUNT(*) FROM KWJ_BOARD
+		WHERE B_DEL = 'N'
+	</select>
+	
+	<select id="getContent" resultType="com.bluewaves.codingTest.test4.vo.Board4VO" parameterType="com.bluewaves.codingTest.test4.vo.Board4VO">
+		SELECT * FROM KWJ_BOARD
+		WHERE B_NO = #{bNo}
+	</select>
+	
+	<insert id="insertContent">
+		INSERT INTO KWJ_BOARD (B_TITLE, B_CONTENT, B_DATE, B_NAME, B_DEL)
+		VALUES(
+			#{bTitle, jdbcType=VARCHAR}
+			, #{bContent, jdbcType=VARCHAR}
+			, now()
+			, #{bName}
+			, 'N'
+		)
+	</insert>
+	
+	<update id="updateContent">
+		UPDATE KWJ_BOARD SET
+			B_TITLE = #{bTitle}
+			, B_CONTENT = #{bContent}
+		WHERE B_NO = #{bNo} 
+	</update>
+	
+	<update id="deleteContent">
+		UPDATE KWJ_BOARD SET
+			B_DEL = 'Y'
+		WHERE B_NO = #{bNo} 
+	</update>
+	
+	
+</mapper>

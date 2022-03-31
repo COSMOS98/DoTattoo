@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-31T08:50:17.862Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="4VYeKKjCEOV2sHAq_hJE" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-31T08:52:46.938Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="i5Yn3plQM8SZ-YEYQjCW" version="17.2.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="4407" dy="1658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2532" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1459,6 +1459,15 @@
         </mxCell>
         <mxCell id="T79Z9kzAT-yebSj_ej5c-685" value="&lt;b&gt;&lt;u&gt;추후 개발&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="T79Z9kzAT-yebSj_ej5c-683">
           <mxGeometry x="40" y="50" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T79Z9kzAT-yebSj_ej5c-687" value="리뷰 댓글, 댓글에 댓글 달린 알람 창 기능 페이지 구상." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1260" y="2774.5" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T79Z9kzAT-yebSj_ej5c-688" value="카테고리 어떻게 정리할지도 정해야함" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1260" y="1454.56" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T79Z9kzAT-yebSj_ej5c-689" value="리뷰 댓글, 댓글에 댓글 달린 알람 창 기능 페이지 구상." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1220" y="1420" width="300" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

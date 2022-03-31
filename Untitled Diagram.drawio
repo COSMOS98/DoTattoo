@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-31T08:16:16.937Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="Htb3AdGmvWuavyXQhodz" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-31T08:22:15.223Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="nRX_jkV3PUiOrwkFVu4X" version="17.2.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3065" dy="1036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2532" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -891,10 +891,10 @@
         <mxCell id="T79Z9kzAT-yebSj_ej5c-599" value="내가 남긴 댓글 모음" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="T79Z9kzAT-yebSj_ej5c-598">
           <mxGeometry x="5" y="52.86999999999989" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="T79Z9kzAT-yebSj_ej5c-657" value="내가 남긴 댓글" style="swimlane;strokeColor=#000000;fillColor=none;startSize=23;" vertex="1" parent="T79Z9kzAT-yebSj_ej5c-213">
+        <mxCell id="T79Z9kzAT-yebSj_ej5c-657" value="내가 남긴 리뷰" style="swimlane;strokeColor=#000000;fillColor=none;startSize=23;" vertex="1" parent="T79Z9kzAT-yebSj_ej5c-213">
           <mxGeometry x="409" y="49.52000000000044" width="130" height="110.12" as="geometry" />
         </mxCell>
-        <mxCell id="T79Z9kzAT-yebSj_ej5c-658" value="내가 남긴 댓글 모음" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="T79Z9kzAT-yebSj_ej5c-657">
+        <mxCell id="T79Z9kzAT-yebSj_ej5c-658" value="내가 남긴 리뷰 모음" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="T79Z9kzAT-yebSj_ej5c-657">
           <mxGeometry x="5" y="52.86999999999989" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="T79Z9kzAT-yebSj_ej5c-222" value="타투 적용" style="swimlane;strokeColor=#000000;fillColor=#CCE5FF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">

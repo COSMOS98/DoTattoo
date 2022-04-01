@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-01T02:29:45.323Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="CnhxB8Lyh9LQRQSPCTJ7" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-01T03:19:15.798Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="Xy0AWicgQC7Mmh93gSyt" version="17.2.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="4805" dy="1842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3581" dy="1275" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -754,7 +754,7 @@
           <mxGeometry x="8.5" y="111.5" width="133" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T79Z9kzAT-yebSj_ej5c-108" value="스케줄 관리 페이지 이동" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="T79Z9kzAT-yebSj_ej5c-104">
-          <mxGeometry x="8.5" y="319" width="133" height="48.5" as="geometry" />
+          <mxGeometry x="8.5" y="309" width="133" height="48.5" as="geometry" />
         </mxCell>
         <mxCell id="T79Z9kzAT-yebSj_ej5c-109" value="&lt;span style=&quot;font-size: 10px&quot;&gt;닷투를 찾는 사람들 게시판&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="T79Z9kzAT-yebSj_ej5c-104">
           <mxGeometry x="8.5" y="231.5" width="133" height="30" as="geometry" />
@@ -766,7 +766,7 @@
           <mxGeometry x="8.5" y="71.5" width="133" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T79Z9kzAT-yebSj_ej5c-112" value="&lt;b&gt;&lt;u&gt;추후 개발&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="T79Z9kzAT-yebSj_ej5c-104">
-          <mxGeometry x="40" y="349" width="70" height="20" as="geometry" />
+          <mxGeometry x="40" y="337.5" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="T79Z9kzAT-yebSj_ej5c-107" value="예약목록 이동" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="T79Z9kzAT-yebSj_ej5c-104">
           <mxGeometry x="8.5" y="150" width="133" height="30" as="geometry" />
@@ -1384,7 +1384,7 @@
             <Array as="points">
               <mxPoint x="990" y="1900" />
               <mxPoint x="990" y="2863" />
-              <mxPoint x="1620" y="2863" />
+              <mxPoint x="1860" y="2863" />
             </Array>
           </mxGeometry>
         </mxCell>

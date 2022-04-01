@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-01T03:30:28.668Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="uyUl4Odgp7oGsVgYbP2z" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-01T06:29:59.852Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="BQnLT6mHiDDMK3CJ34BE" version="17.2.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="3810" dy="1382" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1186,7 +1186,7 @@
         <mxCell id="T79Z9kzAT-yebSj_ej5c-466" value="아니요" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="T79Z9kzAT-yebSj_ej5c-464">
           <mxGeometry x="70" y="60" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="T79Z9kzAT-yebSj_ej5c-472" value="타투 게시판[일반회원 기능]" style="swimlane;strokeColor=#000000;fillColor=#CCE5FF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="T79Z9kzAT-yebSj_ej5c-472" value="타투 게시판[일반회원]" style="swimlane;strokeColor=#000000;fillColor=#CCE5FF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="162.5" y="1604.5" width="545" height="390" as="geometry" />
         </mxCell>
         <mxCell id="T79Z9kzAT-yebSj_ej5c-475" value="게시글" style="swimlane;strokeColor=#000000;fillColor=#FFE6CC;" vertex="1" parent="T79Z9kzAT-yebSj_ej5c-472">
@@ -1267,7 +1267,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="T79Z9kzAT-yebSj_ej5c-527" value="타투 게시판[타투이스트 기능]" style="swimlane;strokeColor=#000000;fillColor=#FFE6CC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="T79Z9kzAT-yebSj_ej5c-527" value="타투 게시판[타투이스트]" style="swimlane;strokeColor=#000000;fillColor=#FFE6CC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1690" y="500" width="545" height="390" as="geometry" />
         </mxCell>
         <mxCell id="T79Z9kzAT-yebSj_ej5c-528" value="게시글" style="swimlane;strokeColor=#000000;fillColor=#FFE6CC;" vertex="1" parent="T79Z9kzAT-yebSj_ej5c-527">

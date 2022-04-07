@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-07T09:05:38.260Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36 Edg/100.0.1185.29" etag="86YDEuPwMQXDE968bDeD" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-07T09:07:38.509Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36 Edg/100.0.1185.29" etag="VWolSV02n3KoB3kzrcgc" version="17.4.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2891" dy="1016" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -982,11 +982,23 @@
         <mxCell id="T79Z9kzAT-yebSj_ej5c-599" value="내가 남긴 댓글 모음" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="T79Z9kzAT-yebSj_ej5c-598" vertex="1">
           <mxGeometry x="5" y="52.86999999999989" width="120" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="Z16upl7dp-un6aIXo9y--31" value="이동" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="T79Z9kzAT-yebSj_ej5c-598">
+          <mxGeometry x="6.5" y="81.59999999999945" width="55" height="19.88" as="geometry" />
+        </mxCell>
+        <mxCell id="Z16upl7dp-un6aIXo9y--32" value="삭제" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="T79Z9kzAT-yebSj_ej5c-598">
+          <mxGeometry x="68.5" y="81.59999999999991" width="55" height="19.88" as="geometry" />
+        </mxCell>
         <mxCell id="T79Z9kzAT-yebSj_ej5c-657" value="내가 남긴 리뷰" style="swimlane;strokeColor=#000000;fillColor=none;startSize=23;" parent="T79Z9kzAT-yebSj_ej5c-213" vertex="1">
           <mxGeometry x="409" y="49.52000000000044" width="130" height="110.12" as="geometry" />
         </mxCell>
         <mxCell id="T79Z9kzAT-yebSj_ej5c-658" value="내가 남긴 리뷰 모음" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="T79Z9kzAT-yebSj_ej5c-657" vertex="1">
           <mxGeometry x="5" y="52.86999999999989" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Z16upl7dp-un6aIXo9y--33" value="이동" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="T79Z9kzAT-yebSj_ej5c-657">
+          <mxGeometry x="6.5" y="80.03999999999951" width="55" height="19.88" as="geometry" />
+        </mxCell>
+        <mxCell id="Z16upl7dp-un6aIXo9y--34" value="삭제" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="T79Z9kzAT-yebSj_ej5c-657">
+          <mxGeometry x="68.5" y="80.03999999999996" width="55" height="19.88" as="geometry" />
         </mxCell>
         <mxCell id="T79Z9kzAT-yebSj_ej5c-690" value="알람함" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="T79Z9kzAT-yebSj_ej5c-213" vertex="1">
           <mxGeometry x="370" y="7.880000000000109" width="80" height="25" as="geometry" />
@@ -1522,6 +1534,12 @@
         </mxCell>
         <mxCell id="T79Z9kzAT-yebSj_ej5c-645" value="내가 남긴 댓글 모음" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="T79Z9kzAT-yebSj_ej5c-644" vertex="1">
           <mxGeometry x="5" y="52.86999999999989" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Z16upl7dp-un6aIXo9y--27" value="이동" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="T79Z9kzAT-yebSj_ej5c-644">
+          <mxGeometry x="8" y="79.99999999999966" width="55" height="19.88" as="geometry" />
+        </mxCell>
+        <mxCell id="Z16upl7dp-un6aIXo9y--26" value="삭제" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="T79Z9kzAT-yebSj_ej5c-644">
+          <mxGeometry x="70" y="80" width="55" height="19.88" as="geometry" />
         </mxCell>
         <mxCell id="T79Z9kzAT-yebSj_ej5c-646" value="수정하기" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="T79Z9kzAT-yebSj_ej5c-156" vertex="1">
           <mxGeometry x="346" y="8" width="80" height="25" as="geometry" />

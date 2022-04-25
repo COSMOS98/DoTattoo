@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T08:41:00.801Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="pgVMB4Jhmy_j_rlNrekj" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-25T08:44:33.014Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="k5PvR1S0MKF6g_bffBHb" version="17.4.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2092" dy="272" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2706" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -914,7 +914,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T79Z9kzAT-yebSj_ej5c-204" value="닷투 메인" style="swimlane;strokeColor=#000000;fillColor=#E6D0DE;startSize=30;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="295" y="1257.25" width="280" height="256.25" as="geometry" />
+          <mxGeometry x="295" y="1280" width="280" height="233.5" as="geometry" />
         </mxCell>
         <mxCell id="T79Z9kzAT-yebSj_ej5c-205" value="메인 페이지(타투 게시판)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="T79Z9kzAT-yebSj_ej5c-204" vertex="1">
           <mxGeometry x="65" y="50" width="150" height="20" as="geometry" />
@@ -1660,7 +1660,7 @@
         <mxCell id="T79Z9kzAT-yebSj_ej5c-748" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=48;strokeColor=#000000;fillColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T79Z9kzAT-yebSj_ej5c-206" target="T79Z9kzAT-yebSj_ej5c-94" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="760" y="1273" />
+              <mxPoint x="760" y="1295" />
               <mxPoint x="760" y="1787" />
             </Array>
           </mxGeometry>

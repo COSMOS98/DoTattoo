@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T08:35:33.658Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="o4985XFabIan2IA3s5qC" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-25T08:37:53.472Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="CDxHPRYyuIuSVI9cTmJB" version="17.4.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="4284" dy="1632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2969" dy="816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1847,15 +1847,15 @@
         <mxCell id="3F1ozF5ANA7Dq9YTey7c-1067" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fillColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3F1ozF5ANA7Dq9YTey7c-1069" target="3F1ozF5ANA7Dq9YTey7c-1077" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JWDhZNK5J7DfOmk3RZO5-0" value="로그인을 한다" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3F1ozF5ANA7Dq9YTey7c-1067">
+        <mxCell id="JWDhZNK5J7DfOmk3RZO5-0" value="회원가입을 한다" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3F1ozF5ANA7Dq9YTey7c-1067">
           <mxGeometry x="-0.2433" y="-2" relative="1" as="geometry">
-            <mxPoint x="16" y="-1" as="offset" />
+            <mxPoint x="13" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JWDhZNK5J7DfOmk3RZO5-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3F1ozF5ANA7Dq9YTey7c-1069" target="3F1ozF5ANA7Dq9YTey7c-1073">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JWDhZNK5J7DfOmk3RZO5-2" value="로그인을 하지 않는다" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JWDhZNK5J7DfOmk3RZO5-1">
+        <mxCell id="JWDhZNK5J7DfOmk3RZO5-2" value="회원가입을 하지 않는다" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JWDhZNK5J7DfOmk3RZO5-1">
           <mxGeometry x="0.2011" y="-2" relative="1" as="geometry">
             <mxPoint x="48" y="-1" as="offset" />
           </mxGeometry>
@@ -1889,8 +1889,8 @@
         <mxCell id="3F1ozF5ANA7Dq9YTey7c-1076" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fillColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3F1ozF5ANA7Dq9YTey7c-1077" target="3F1ozF5ANA7Dq9YTey7c-1072" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-253.5" y="4520" />
-              <mxPoint x="-253.5" y="4535" />
+              <mxPoint x="-253" y="4510" />
+              <mxPoint x="-253" y="4535" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2105,7 +2105,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3F1ozF5ANA7Dq9YTey7c-1151" value="닷투 메인" style="swimlane;strokeColor=#000000;fillColor=#E6D0DE;startSize=30;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="306.5" y="4387.25" width="280" height="256.25" as="geometry" />
+          <mxGeometry x="306.5" y="4410" width="280" height="233.5" as="geometry" />
         </mxCell>
         <mxCell id="3F1ozF5ANA7Dq9YTey7c-1152" value="메인 페이지(타투 게시판)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="3F1ozF5ANA7Dq9YTey7c-1151" vertex="1">
           <mxGeometry x="65" y="50" width="150" height="20" as="geometry" />
@@ -2851,8 +2851,8 @@
         <mxCell id="3F1ozF5ANA7Dq9YTey7c-1380" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=48;strokeColor=#000000;fillColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3F1ozF5ANA7Dq9YTey7c-1153" target="3F1ozF5ANA7Dq9YTey7c-1090" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="771.5" y="4403" />
-              <mxPoint x="771.5" y="4917" />
+              <mxPoint x="772" y="4426" />
+              <mxPoint x="772" y="4917" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2987,7 +2987,12 @@
         </mxCell>
         <mxCell id="3F1ozF5ANA7Dq9YTey7c-1409" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3F1ozF5ANA7Dq9YTey7c-1072" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="21.5" y="4520" as="targetPoint" />
+            <mxPoint x="22" y="4510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-29" y="4535" />
+              <mxPoint x="-29" y="4510" />
+              <mxPoint x="22" y="4510" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="3F1ozF5ANA7Dq9YTey7c-1410" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3F1ozF5ANA7Dq9YTey7c-1071" edge="1">

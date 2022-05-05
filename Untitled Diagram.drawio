@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T15:49:44.406Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="rAmkCWn2lygT2qbqtk37" version="18.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-05T15:50:34.580Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="Hu94SzvmLdNUmC8gNrAt" version="18.0.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3444" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4637" dy="1383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -2042,10 +2042,10 @@
         <mxCell id="N6-qhMVHOMQsI-Th9O8s-66" value="로그아웃" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="3F1ozF5ANA7Dq9YTey7c-1105">
           <mxGeometry x="19.299999999999955" y="319" width="106.5" height="21" as="geometry" />
         </mxCell>
-        <mxCell id="N6-qhMVHOMQsI-Th9O8s-67" value="FAQ" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="3F1ozF5ANA7Dq9YTey7c-1105">
+        <mxCell id="N6-qhMVHOMQsI-Th9O8s-67" value="FAQ(일반회원과 동일)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="3F1ozF5ANA7Dq9YTey7c-1105">
           <mxGeometry x="8.5" y="489" width="133" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="N6-qhMVHOMQsI-Th9O8s-68" value="공지사항" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="3F1ozF5ANA7Dq9YTey7c-1105">
+        <mxCell id="N6-qhMVHOMQsI-Th9O8s-68" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;공지사항(일반회원과 동일)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="3F1ozF5ANA7Dq9YTey7c-1105">
           <mxGeometry x="9.299999999999955" y="529" width="133" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3F1ozF5ANA7Dq9YTey7c-1121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fillColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3F1ozF5ANA7Dq9YTey7c-1122" target="3F1ozF5ANA7Dq9YTey7c-1151" edge="1">

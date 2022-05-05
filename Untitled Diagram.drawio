@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T15:52:10.262Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="40cDEBBXIEFn182ZQTiX" version="18.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-05T15:53:02.899Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="Au7NL_q2xKsPa0lxx4Bm" version="18.0.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="7621" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4041" dy="-1231" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1586,9 +1586,6 @@
         <mxCell id="3F1ozF5ANA7Dq9YTey7c-1358" value="게시글 삭제" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="3F1ozF5ANA7Dq9YTey7c-1355" vertex="1">
           <mxGeometry x="110" y="50" width="80" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="3F1ozF5ANA7Dq9YTey7c-1359" value="카테고리 어떻게 정리할지도 정해야함 노출 빈도수 높여야함 팔로우 가능하게 할지도 추가여부" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1126.5" y="4678.0599999999995" width="520" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="3F1ozF5ANA7Dq9YTey7c-1360" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fillColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3F1ozF5ANA7Dq9YTey7c-1345" target="3F1ozF5ANA7Dq9YTey7c-1355" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -1615,15 +1612,6 @@
         </mxCell>
         <mxCell id="3F1ozF5ANA7Dq9YTey7c-1366" value="&lt;b&gt;&lt;u&gt;추후 개발&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="3F1ozF5ANA7Dq9YTey7c-1364" vertex="1">
           <mxGeometry x="40" y="50" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="3F1ozF5ANA7Dq9YTey7c-1367" value="리뷰 댓글, 댓글에 댓글 달린 알람 창 기능 페이지 구상." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1221.5" y="4643.5" width="300" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="3F1ozF5ANA7Dq9YTey7c-1368" value="카테고리 어떻게 정리할지도 정해야함" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1221.5" y="3334.56" width="220" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="3F1ozF5ANA7Dq9YTey7c-1369" value="리뷰 댓글, 댓글에 댓글 달린 알람 창 기능 페이지 구상." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1181.5" y="3300" width="300" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3F1ozF5ANA7Dq9YTey7c-1370" value="알람함" style="swimlane;fillColor=#E6D0DE;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1413" y="4559.5" width="200" height="70.5" as="geometry" />
@@ -1762,9 +1750,6 @@
         </mxCell>
         <mxCell id="3F1ozF5ANA7Dq9YTey7c-1407" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3F1ozF5ANA7Dq9YTey7c-1337" target="3F1ozF5ANA7Dq9YTey7c-1287" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3F1ozF5ANA7Dq9YTey7c-1408" value="자유도 있는 게시판을 얘기를 들었는데 타투 게시판은 타투에 관련된 글만 필터링 되는지 게시판을 두개를 따로 마이피드 타투 게시판 따로 가야하는건지" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1191.5" y="3560" width="820" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3F1ozF5ANA7Dq9YTey7c-1409" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3F1ozF5ANA7Dq9YTey7c-1072" edge="1">
           <mxGeometry relative="1" as="geometry">
